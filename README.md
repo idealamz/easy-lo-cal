@@ -17,7 +17,7 @@ const t = babylonJS(dictionary)
 ```js
 const dictionary = {'birth-date': 'I was born at: <%= date %>'}
 const t = babylonJS(dictionary)
-// t('birth-date', {'date': 1985})) === 'I was born at: 1985'
+// t('birth-date', {'date': 1985}) === 'I was born at: 1985'
 ```
 
 ### Using variables and conditions

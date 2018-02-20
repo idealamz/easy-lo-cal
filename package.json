@@ -1,7 +1,7 @@
 {
-  "name": "parashat-hashavua",
+  "name": "easy-lo-cal",
   "version": "0.0.1",
-  "description": "Calculates the jewish portion of the coming Saturday after a given date.",
+  "description": "easy to use strings localization library",
   "license": "MIT",
   "main": "index.js",
   "author": "Adiel Amzaleg",
@@ -62,6 +62,5 @@
     "npm-watch": "^0.3.0",
     "opn-cli": "^3.1.0",
     "rimraf": "^2.6.1"
-  },
-  "private": true
+  }
 }

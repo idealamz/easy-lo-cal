@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "hebrew-date": "git+ssh://git@bitbucket.org:adiel-amzaleg/hdate.git#stable",
-    "libhdate": "^0.3.2"
+    "libhdate": "^0.3.2",
+    "lodash.template": "^4.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.18.0",

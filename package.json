@@ -1,6 +1,6 @@
 {
   "name": "easy-lo-cal",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "easy to use strings localization library",
   "license": "MIT",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "flow": "flow check",
     "docs": "documentation readme src --section=API",
     "clean": "rimraf dist",
-    "prebuild": "npm run docs && npm run clean",
+    "prebuild": "echo 'TODO: npm run docs && npm run clean'",
     "build": "babel src -d dist",
     "watch": "npm-watch",
     "patch": "npm version patch && npm publish",

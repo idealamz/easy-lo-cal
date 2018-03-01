@@ -1,6 +1,6 @@
 {
   "name": "easy-lo-cal",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "easy to use strings localization library",
   "license": "MIT",
   "main": "index.js",

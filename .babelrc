@@ -1,11 +1,7 @@
 {
   "presets": [
-    ["env", {
-      "targets": {
-        "node": 6
-      }
-    }],
-    "stage-2",
-    "flow"
-  ]
+    ["env"],
+    "stage-2"
+  ],
+  "plugins": ["transform-es2015-modules-umd"]
 }

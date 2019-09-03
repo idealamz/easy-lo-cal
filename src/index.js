@@ -2,7 +2,7 @@ import template from 'lodash.template'
 
 const dictionary = {}
 
-export default (dictionary = {}) => (key, variables = {}) => {
+export default (dictionary = {}, whenMissing = (key) => (key)) => (key, variables = {}) => {
     switch (typeof dictionary[key]) {
         case 'string':
             return template(dictionary[key])(variables).trim()
@@ -11,6 +11,6 @@ export default (dictionary = {}) => (key, variables = {}) => {
             break
         default:
             console.warn(`${key} doesn't exist`)
-            return `!_MISSING_TRANSLATION_${key}_!`
+            return whenMissing(key)
     }
 }
